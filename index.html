@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details For ID card</title>
+</head>
+<body bgcolor="cyan " align="center">
+    <h1 >ID CARD DETAILS</h1>
+    <p>Students the university has decided to make ID cards for  each and every student. So you
+       are required to fill the following details.
+    </p>
+    <form action="mailto:gauravpahwa2204@gmail.com" method="post" enctype="text/plain">
+        <table align="center" cellspacing="20" bgcolor="grey">
+            <tr>
+                <th><label for="Name">Name</label></th>
+                <td><input type="text" name="Name" id="" autocomplete="additional-name" required minlength="3" placeholder="Name" autofocus></td>
+            </tr>
+            <tr>
+                <th><label for="FName">Father Name</label></th>
+                <td><input type="text" name="FName" id="" autocomplete="additional-name" required minlength="3" placeholder="Father Name" ></td>
+            </tr>
+            <tr>
+                <th><label for="Rollno">Roll Number</label></th>
+                <td><input type="number" name="Rollno" id="" required minlength="9" placeholder="RollNo" ></td>
+            </tr>
+            <tr>
+                <th><label for="Semester">Semester</label></th>
+                <td><input type="number" name="Semester" id=""   placeholder="Semester" required ></td>
+            </tr>
+            <tr>
+                <th><label for="Gender">Gender</label></th>
+                <td><label for="Male"> Male</label>
+                    <input type="radio" name="Gender" id="Male" value="Male" checked></td>
+                <td><label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Female" value="Female"></td>
+            </tr>
+            <tr>
+                <th><label for="DOB">Date of birth</label></th>
+                <td><input type="date" name="DOB" id=""  required  ></td>
+            </tr>
+            <tr>
+                <th><label for="Email">Email</label></th>
+                <td><input type="email" name="Email" id=""  required  placeholder="Email" ></td>
+            </tr>
+            <tr>
+                <th><label for="Mno">Mobile Number</label></th>
+                <td><input type="number" name="Mno" id=""  required minlength="10" placeholder="Mobile Number" autocomplete="mobile"></td>
+            </tr>
+            <tr>
+                <th><label for="Address">Address</label></th>
+                <td><textarea name="Address" id="" cols="30" rows="10" required autocomplete="address-level1" placeholder="Give your full address"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="Image">Upload Your Recent Photograph</label></th>
+                <td><input type="file" name="Image" id="" required ></td>
+                
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
